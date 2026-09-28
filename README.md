@@ -4,7 +4,8 @@ A small end-to-end data pipeline: cleans a public Goodreads books dataset in Pyt
 loads it into a normalized PostgreSQL database, and runs analytical SQL queries.
 
 ## Dataset
-Source: Source: [Goodreads-books by JealousLeopard on Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
+Source: [Goodreads-books by JealousLeopard on Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
+
 File: `books.csv` — 11,127 records before cleaning; 11,123 after skipping four malformed CSV rows.
 
 ## Schema
